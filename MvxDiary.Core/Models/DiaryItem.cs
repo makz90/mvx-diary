@@ -21,7 +21,6 @@ namespace MvxDiary.Core.Models
         {
             Title = String.Empty;
             Description = String.Empty;
-            Date = new DateTime();
         }
         public bool IsValid()
         {

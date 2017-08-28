@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="Hello">Hello World, Click Me!</string>
-    <string name="ApplicationName">MvxDiary.UI.Droid</string>
+  <string name="ApplicationName">MyDiary</string>
+  <string name="AddItemActionBar">Add New Entry</string>
 </resources>

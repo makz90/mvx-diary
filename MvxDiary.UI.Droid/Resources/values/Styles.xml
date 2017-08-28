@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<resources>
+  
+  <!-- Inherit from the light Material Theme -->
+  <style name="MyCustomTheme" parent="android:Theme.Material.Light.DarkActionBar">
+
+    <item name="android:colorPrimary">@color/my_red_dark</item>
+    <item name="android:colorAccent">@color/my_red_light</item>
+    
+  </style>
+
+  <style name="MyCustomTheme.Splash" parent ="MyCustomTheme">
+    <item name="android:windowBackground">@layout/Splash</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+  </style>
+  
+</resources>

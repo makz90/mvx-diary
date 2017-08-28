@@ -6,7 +6,7 @@ namespace MvxDiary.Core.Services
     {
         public DateTime Today()
         {
-            return DateTime.Now;
+            return DateTime.Now.ToLocalTime();
         }
     }
 }

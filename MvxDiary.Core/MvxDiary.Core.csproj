@@ -34,12 +34,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="CustomAppStart.cs" />
     <Compile Include="Models\DiaryItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository.cs" />
     <Compile Include="Services\DateProvider.cs" />
     <Compile Include="Services\IDateProvider.cs" />
-    <Compile Include="ViewModels\MainScreemViewModel.cs" />
+    <Compile Include="ViewModels\AllDiaryItemsViewModel.cs" />
+    <Compile Include="ViewModels\AddDiaryItemViewModel.cs" />
+    <Compile Include="ViewModels\MainScreenViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MvvmCross.Core, Version=5.1.1.0, Culture=neutral, processorArchitecture=MSIL">

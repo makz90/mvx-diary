@@ -7,11 +7,17 @@ namespace MvxDiary.Core.ViewModels
     {
         public ICommand NavigateAddDiaryItem
         {
-            get { return new MvxCommand(() => ShowViewModel<AddDiaryItemViewModel>());}
+            get
+            {
+                return new MvxCommand(() => ShowViewModel<AddDiaryItemViewModel>());
+            }
         }
         public ICommand NavigateAllDiaryItems
         {
-            get { return new MvxCommand(() => ShowViewModel<AllDiaryItemsViewModel>()); }
+            get
+            {
+                return new MvxCommand(() => ShowViewModel<AllDiaryItemsViewModel>());
+            }
         }
     }
 }

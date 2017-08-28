@@ -9,7 +9,7 @@ using MvxDiary.Core.Services;
 
 namespace MvxDiary.Core
 {
-    class App : MvxApplication
+    public class App : MvxApplication
     {
         public App()
         {

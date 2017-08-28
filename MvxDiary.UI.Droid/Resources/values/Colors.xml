@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<resources>
+
+  <color name="my_red_light">#e28585</color>
+  <color name="my_red_dark">#e23131</color>
+  
+</resources>

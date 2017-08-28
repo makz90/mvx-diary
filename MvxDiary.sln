@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvxDiary.Core", "MvxDiary.Core\MvxDiary.Core.csproj", "{058200C4-1C26-4404-8084-0DD1C8F5AECA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvxDiary.UI.Droid", "MvxDiary.UI.Droid\MvxDiary.UI.Droid.csproj", "{36A7B491-89F6-4BBD-9B3F-CDF055077382}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{058200C4-1C26-4404-8084-0DD1C8F5AECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{058200C4-1C26-4404-8084-0DD1C8F5AECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{058200C4-1C26-4404-8084-0DD1C8F5AECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A7B491-89F6-4BBD-9B3F-CDF055077382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A7B491-89F6-4BBD-9B3F-CDF055077382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A7B491-89F6-4BBD-9B3F-CDF055077382}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{36A7B491-89F6-4BBD-9B3F-CDF055077382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A7B491-89F6-4BBD-9B3F-CDF055077382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A7B491-89F6-4BBD-9B3F-CDF055077382}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
